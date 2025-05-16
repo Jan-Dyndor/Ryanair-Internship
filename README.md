@@ -91,6 +91,6 @@ stacking_model = StackingRegressor(
 - Balancing between high-cardinality categorical variables and overfitting risk.
 - Ensuring consistent preprocessing between training and validation datasets.
 - Selecting optimal models for ensemble stacking without extensive overfitting.
-- Although `DepartureDay` might appear less informative at first glance, I retained it in the modeling process to capture any potential temporal effects. Its usefulness could vary depending on traffic patterns, holidays, or operational cycles. Further analysis (e.g., feature importance ) could clarify its contribution to model performance.
+- Although `DepartureDay` and/or `DepartureMonth` might appear less informative at first glance, I retained it in the modeling process to capture any potential temporal effects and capture big picture of the data. Its usefulness could vary depending on traffic patterns, holidays, or operational cycles. Further analysis (e.g., feature importance ) could clarify its contribution to model performance.
 - ⚠️ Due to time constraints, I was not able to perform full hyperparameter tuning.
 I'm aware that this step could significantly improve the model's generalization ability and would definitely include it if more time was available.
